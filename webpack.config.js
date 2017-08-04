@@ -1,8 +1,9 @@
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/heaven.js",
   output: {
     path: __dirname,
-    filename: "build/bundle.js"
+    filename: "dist/heaven.js",
+    library: "heaven"
   },
   module: {
     loaders: [

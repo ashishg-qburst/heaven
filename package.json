@@ -15,7 +15,7 @@
     "webpack": "^3.4.1"
   },
   "scripts": {
-    "build": "babel --presets es2015 src/index.js -o build/bundle.js",
+    "build": "babel --presets es2015 src/heaven.js -o build/bundle.js",
     "format": "prettier \"src/**/*.js\" --write",
     "start": "webpack-dev-server",
     "webpack": "webpack"
