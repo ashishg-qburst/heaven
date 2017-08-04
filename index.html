@@ -1,9 +1,12 @@
 <script type="text/javascript" src="dist/heaven.js"></script>
 
-<span id="star">Heaven</span>
+<span id="star">Star</span>
+<span id="planet">Planet</span>
 
 <script type="text/javascript">
-  console.log(window.heaven);
-  window.heaven.init("#star");
-  window.heaven.showProps();
+  var star = window.heaven.init("#star");
+  star.heaven.showProps();
+
+  var planet = window.heaven.init("#planet", { count: 5 });
+  planet.heaven.showProps();
 </script>
