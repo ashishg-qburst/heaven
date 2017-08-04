@@ -15,7 +15,10 @@
   },
   "scripts": {
     "build": "babel --presets es2015 src/index.js -o build/bundle.js",
-    "start": "http-server",
+    "start": "webpack-dev-server",
     "webpack": "webpack"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^2.6.1"
   }
 }
