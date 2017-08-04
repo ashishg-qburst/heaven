@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "babel --presets es2015 src/index.js -o build/bundle.js",
-    "start": "http-server"
+    "start": "http-server",
+    "webpack": "webpack"
   }
 }
